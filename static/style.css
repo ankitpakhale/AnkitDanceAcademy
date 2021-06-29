@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gloria+Hallelujah&family=Satisfy&display=swap');
+/* ------------------------reset------------------------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------#navbar------------------------------------------ */
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: white;
+
+}
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #16213e;
+    font-weight: bold;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16px;
+    position: sticky;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    margin: 10px 6px;
+}
+
+#navbar li a{
+    padding: 3px 10px;
+    text-decoration: none;
+    color: #cedebd;
+    transition-duration: 0.8s;
+}
+#navbar li a:hover{
+    /* background-color: #cedebd; */
+    /* color: #16213e; */
+    color: #5db301;
+    /* border-radius: 18px; */
+}
+
+/* ------------------------#introSection------------------------------------------ */
+#introSection{
+    background: center/cover no-repeat url(/static/dance.jpg);
+    opacity: 0.9;
+    height: 670px;
+    color: #cedebd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    padding-bottom: 70px;
+    /* background-color: aqua; */
+    transition-duration: 0.8s;
+}
+#introSection .main:hover{
+    color: #5caf04;
+    transition-duration: 0.8s;
+}
+#introSection .small{
+    font-size: 39px;
+    color: #5caf04;
+    display: flex;
+    flex-direction: row;
+}
+#introSection .small1{
+    color: #5db301;
+    margin: 2px 5px;
+    transition-duration: 0.8s;
+}
+#introSection .small1:hover{
+    transition-duration: 0.8s;
+    margin: 2px 5px;
+    color: #e72113;
+}
+#introSection .small2{
+    color: #f0d957;
+    margin: 2px 5px;
+    transition-duration: 0.8s;
+}
+#introSection .small2:hover{
+    transition-duration: 0.8s;
+    color: #8b15da;
+    margin: 2px 5px;
+}
+#introSection .small3{
+    color: #e72113;
+    margin: 2px 5px;
+    transition-duration: 0.8s;
+}
+#introSection .small3:hover{
+    transition-duration: 0.8s;
+    color: #5db301;
+    margin: 2px 5px;
+}
+#introSection .small4{
+    color: #8b15da;
+    margin: 2px 5px;
+    transition-duration: 0.8s;
+}
+#introSection .small4:hover{
+    transition-duration: 0.8s;
+    color: #f0d957;
+    margin: 2px 5px;
+}
+
+/* ------------------------#missionSection------------------------------------------ */
+#missionSection{
+    margin-top: -12px;
+    height: 100%;
+    padding-bottom: 98px;
+    background-color: #ebebeb;
+    /* background: center/cover no-repeat url(/static/home.jpg); */
+    /* opacity: 0.9; */
+    align-items: center;
+    text-align: center;
+}
+
+#missionSection h3{
+    justify-content: center;
+    width: fit-content;
+    margin: 10px auto;
+    color: #5db301;
+    padding-top: 32px;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Satisfy', cursive; 
+    font-size: 51px;
+    font-weight: bold;
+    transition-duration: 0.8s;
+}
+
+#missionSection h3:hover{
+    color: #e72113;
+    transition-duration: 0.8s;
+}
+
+#missionSection .card{
+    transition-duration: 0.8s;
+    border: 2px solid #5db301;
+    width: 25%;
+    height: 385px;
+    margin:  23px;
+    padding: 23px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50px 0px 50px 0px;
+}
+#missionSection .card:hover{
+    transition-duration: 0.8s;
+    border: 2px solid #e72113;
+    border-radius: 0px 50px 0px 50px;
+}
+
+#missionSection .card h4{
+    color: #e72113;
+    font-family: 'Courgette', cursive; 
+    text-align: center;
+    transition-duration: 0.8s;
+}
+#missionSection .card h4:hover{
+    transition-duration: 0.8s;
+    color: #5db301;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height: 134px;
+    padding: 5px 10px;
+    margin: 23px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 6px 15px;
+}
+.card-content p{
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ------------------------#sponsorsSection------------------------------------------ */
+#sponsorsSection h3{
+    justify-content: center;
+    width: fit-content;
+    margin: 10px auto;
+    color: #f0d957;
+    padding-top: 32px;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Satisfy', cursive; 
+    font-size: 51px;
+    font-weight: bold;
+    transition-duration: 0.8s;
+}
+
+#sponsorsSection h3:hover{
+    color: #8b15da;
+    transition-duration: 0.8s;
+}
+#sponsors{
+    height: 115px;
+    max-width: 916px;
+    margin: 12px auto;
+    margin-bottom: 18px;
+}
+.spImage{
+    height: 80%;
+    max-width: 1000px;
+    margin: 19px 25px;
+}
+
+
+
+
+
+/* ------------------------#footer------------------------------------------ */
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
